@@ -10,3 +10,8 @@ python -m uvicorn main:app --reload
 ## Endpoints
 - GET /tasks
 - POST /tasks
+
+## Tecnologias
+- Python
+- FastAPI
+- Uvicorn
