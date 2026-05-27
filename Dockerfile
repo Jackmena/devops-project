@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Instala dependências
-RUN pip install fastapi uvicorn
+RUN pip install fastapi uvicorn psycopg2-binary
 
 # Comando para rodar a API
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
